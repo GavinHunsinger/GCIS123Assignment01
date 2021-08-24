@@ -1,0 +1,14 @@
+PS C:\Users\Gavin> mkdir SoftDevI
+PS C:\Users\Gavin> cd SoftDevI
+PS C:\Users\Gavin\SoftDevI> mkdir Unit01
+PS C:\Users\Gavin\SoftDevI> cd Unit01
+PS C:\Users\Gavin\SoftDevI\Unit01> notepad file01.txt
+PS C:\Users\Gavin\SoftDevI\Unit01> notepad file02.txt
+PS C:\Users\Gavin\SoftDevI\Unit01> mkdir Assignment01
+PS C:\Users\Gavin\SoftDevI\Unit01> cd .\Assignment01\
+PS C:\Users\Gavin\SoftDevI\Unit01\Assignment01> mkdir Gavin
+PS C:\Users\Gavin\SoftDevI\Unit01\Assignment01> mv C:\Users\Gavin\SoftDevI\Unit01\file02.txt C:\Users\Gavin\SoftDevI\Unit01\Assignment01\Gavin
+PS C:\Users\Gavin\SoftDevI\Unit01\Assignment01> cd Gavin
+PS C:\Users\Gavin\SoftDevI\Unit01\Assignment01\Gavin> notepad file02.txt
+PS C:\Users\Gavin\SoftDevI\Unit01\Assignment01\Gavin> cd C:\Users\Gavin\SoftDevI\Unit01
+PS C:\Users\Gavin\SoftDevI\Unit01> rm .\Assignment01\
